@@ -23,7 +23,7 @@ const Categories = () => {
           {categories.map((category) => (
             <div
               key={category.name}
-              className="relative h-40 rounded-xl overflow-hidden group"
+              className="relative h-56 rounded-xl overflow-hidden group"
             >
               <img
                 src={category.image}
