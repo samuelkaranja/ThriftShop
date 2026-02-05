@@ -1,5 +1,5 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
-import Container from "../layout/Container";
+import Container from "../../layout/Container";
 import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
