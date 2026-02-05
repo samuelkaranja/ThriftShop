@@ -37,11 +37,11 @@ const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5 lg:py-1">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <img src={Logo} className="h-16 w-36" />
+            <img src={Logo} className="h-10 lg:h-16" />
             {/* <span className="text-2xl font-bold text-gray-900">
               Daily<span className="text-green-600">Drip</span>
             </span> */}
