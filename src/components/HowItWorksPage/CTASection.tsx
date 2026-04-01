@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../layout/Container";
 
 const CTASection: React.FC = () => {
@@ -11,9 +12,12 @@ const CTASection: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+            <Link
+              to="/shop"
+              className="bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition"
+            >
               Browse Collection
-            </button>
+            </Link>
 
             <button className="border border-gray-300 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
               Chat on WhatsApp

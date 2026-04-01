@@ -19,6 +19,7 @@ export interface Product {
   price: number;
   category: Category;
   condition: "Like New" | "Good" | "New";
+  newDrop: boolean;
 }
 
 export const products: Product[] = [
@@ -32,6 +33,7 @@ export const products: Product[] = [
     price: 1200,
     category: "Jackets",
     condition: "Like New",
+    newDrop: true,
   },
   {
     id: 2,
@@ -43,6 +45,7 @@ export const products: Product[] = [
     price: 800,
     category: "Hoodies",
     condition: "Good",
+    newDrop: true,
   },
   {
     id: 3,
@@ -54,6 +57,7 @@ export const products: Product[] = [
     price: 900,
     category: "Jeans",
     condition: "Like New",
+    newDrop: true,
   },
   {
     id: 4,
@@ -65,6 +69,7 @@ export const products: Product[] = [
     price: 400,
     category: "T-Shirts",
     condition: "Good",
+    newDrop: false,
   },
   {
     id: 5,
@@ -76,6 +81,7 @@ export const products: Product[] = [
     price: 750,
     category: "Hoodies",
     condition: "Like New",
+    newDrop: false,
   },
   {
     id: 6,
@@ -87,6 +93,7 @@ export const products: Product[] = [
     price: 1500,
     category: "Jackets",
     condition: "New",
+    newDrop: false,
   },
   {
     id: 7,
@@ -98,6 +105,7 @@ export const products: Product[] = [
     price: 850,
     category: "Jeans",
     condition: "Good",
+    newDrop: false,
   },
   {
     id: 8,
@@ -109,6 +117,7 @@ export const products: Product[] = [
     price: 350,
     category: "T-Shirts",
     condition: "Like New",
+    newDrop: false,
   },
   {
     id: 9,
@@ -120,5 +129,6 @@ export const products: Product[] = [
     price: 950,
     category: "Hoodies",
     condition: "Like New",
+    newDrop: false,
   },
 ];

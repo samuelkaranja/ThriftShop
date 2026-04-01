@@ -9,7 +9,7 @@ interface Props {
 const ProductCard = ({ product }: Props) => {
   return (
     <div className="group mb-3">
-      <div className="relative overflow-hidden rounded-xl bg-gray-100">
+      <div className="relative overflow-hidden rounded-2xl bg-gray-100">
         <img
           src={product.image}
           alt={product.name}
@@ -21,12 +21,14 @@ const ProductCard = ({ product }: Props) => {
       <div className="mt-3 space-y-1">
         <Link
           to={`/product-detail/${product.id}`}
-          className="text-md font-medium hover:underline"
+          className="text-[17px] font-bold hover:underline"
         >
           {product.name}
         </Link>
-        <p className="text-sm text-gray-500 pt-1">Size: {product.size}</p>
-        <p className="font-semibold">Ksh {product.price.toLocaleString()}</p>
+        <div className="flex items-center justify-between mt-1">
+          <p className="text-[16px] text-gray-500">Size: {product.size}</p>
+          <p className="font-semibold">Ksh {product.price.toLocaleString()}</p>
+        </div>
       </div>
     </div>
   );

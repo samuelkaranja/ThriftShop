@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-18 pb-28 md:pt-25 md:pb-32 bg-[#fbfcfd]">
+    <section className="pt-18 pb-28 md:py-20 bg-[#fbfcfd]">
       <Container>
         <div className="max-w-3xl">
           <h1 className="text-4xl leading-[1.15] md:text-6xl font-extrabold text-gray-900">
