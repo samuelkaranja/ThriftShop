@@ -17,7 +17,7 @@ const SocialLinks: React.FC = () => {
   const Socials: Social[] = [
     {
       id: 1,
-      icon: <Instagram color="red" size={25} />,
+      icon: <Instagram color="red" size={19} />,
       title: "Instagram",
       subtitle: "Follow us for daily and style inspiration",
       href: "@thrifthub",
@@ -26,7 +26,7 @@ const SocialLinks: React.FC = () => {
     },
     {
       id: 2,
-      icon: <Phone color="blue" size={25} />,
+      icon: <Phone color="blue" size={19} />,
       title: "Phone",
       subtitle: "Call us during business hours",
       href: "+254 700 000 000",
@@ -35,7 +35,7 @@ const SocialLinks: React.FC = () => {
     },
     {
       id: 3,
-      icon: <Mail color="purple" size={25} />,
+      icon: <Mail color="purple" size={19} />,
       title: "Email",
       subtitle: "Send us an email anytime",
       href: "hello@thrifthub.co.ke",

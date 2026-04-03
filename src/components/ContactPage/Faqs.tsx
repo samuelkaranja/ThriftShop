@@ -37,11 +37,11 @@ const Faqs: React.FC = () => {
             Frequently Asked Questions
           </h2>
           {questions.map((question) => (
-            <div className="mt-6 py-1" key={question.id}>
-              <h2 className="text-lg md:text-xl text-black font-bold">
+            <div className="mt-3 py-1" key={question.id}>
+              <h2 className="text-lg md:text-[18px] text-black font-bold">
                 {question.title}
               </h2>
-              <p className="text-sm md:text-[17px] text-gray-500 mt-1">
+              <p className="text-sm md:text-[16px] text-gray-500 mt-1">
                 {question.subtitle}
               </p>
             </div>

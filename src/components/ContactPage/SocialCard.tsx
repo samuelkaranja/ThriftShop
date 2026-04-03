@@ -6,8 +6,8 @@ interface Props {
 
 const SocialCard = ({ sc }: Props) => {
   return (
-    <div className="border border-gray-200 rounded-xl p-5 shadow hover:shadow-xl hover:cursor-pointer">
-      <div className={`w-12 h-12 p-3 rounded-full ${sc.background}`}>
+    <div className="border border-gray-100 rounded-2xl p-5 shadow hover:shadow-xl hover:cursor-pointer">
+      <div className={`w-11 h-11 p-3 rounded-full ${sc.background}`}>
         <span>{sc.icon}</span>
       </div>
 

@@ -10,7 +10,7 @@ const DeliverySection: React.FC = () => {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-10">
-            <div>
+            <div className="mx-auto">
               <h3 className="font-semibold mb-4">Delivery Areas</h3>
               <ul className="space-y-2 text-sm text-gray-700 list-disc list-inside">
                 <li>Nairobi CBD and surrounding areas</li>
@@ -20,7 +20,7 @@ const DeliverySection: React.FC = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="mx-auto">
               <h3 className="font-semibold mb-4">Delivery Times</h3>
               <ul className="space-y-2 text-sm text-gray-700 list-disc list-inside">
                 <li>Same-day delivery for orders before 2 PM</li>

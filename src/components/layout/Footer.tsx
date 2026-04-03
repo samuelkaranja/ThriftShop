@@ -20,7 +20,7 @@ const Footer = () => {
               <MapPin size={16} /> Nairobi, Kenya
             </p>
             <p className="flex items-center gap-2 text-[#333] text-sm">
-              <Mail size={16} /> hello@thrifthub.co.ke
+              <Mail size={16} /> hello@dailydrip.co.ke
             </p>
           </div>
 
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <p className="text-center mt-10 text-sm border-t border-gray-300 pt-5">
-          © 2026 ThriftHub. All rights reserved.
+          © 2026 DailyDrip. All rights reserved.
         </p>
       </Container>
     </footer>

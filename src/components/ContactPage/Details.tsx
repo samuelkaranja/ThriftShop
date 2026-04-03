@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../layout/Container";
-import { Clock } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 
 const Details: React.FC = () => {
   const dates = [
@@ -28,7 +28,7 @@ const Details: React.FC = () => {
           <div className="bg-gray-50 rounded-2xl p-8">
             <div className="flex gap-4">
               <div className="bg-gray-950 rounded-full p-5">
-                <Clock size={30} color="white" />
+                <MapPin size={28} color="white" />
               </div>
 
               <div>
@@ -36,13 +36,12 @@ const Details: React.FC = () => {
                   Visit Our Store
                 </h1>
                 <p className="mt-1 text-[16px] text-gray-500">
-                  Come see our collection in person and try items before you
-                  buy.
+                  Come see our collection in person.
                 </p>
               </div>
             </div>
-            <div className="mt-6">
-              <h3 className="text-lg text-gray-900 mb-2">ThriftHub Store</h3>
+            <div className="mt-8">
+              <h3 className="text-lg text-gray-900 mb-2">DailyDrip Store</h3>
               <p className="mb-2">Kimathi Street, Nairobi CBD</p>
               <p className="mb-3">2nd Floor, Next to Java House</p>
               <p className="text-gray-600">
@@ -54,7 +53,7 @@ const Details: React.FC = () => {
           <div className="bg-gray-50 rounded-2xl p-8">
             <div className="flex gap-4">
               <div className="bg-gray-950 rounded-full p-5">
-                <Clock size={30} color="white" />
+                <Clock size={28} color="white" />
               </div>
 
               <div>
@@ -66,7 +65,7 @@ const Details: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-10">
+            <div className="mt-8">
               {dates.map((dt) => (
                 <div className="flex justify-between" key={dt.id}>
                   <span className="text-[17px] text-gray-500 mb-2">
